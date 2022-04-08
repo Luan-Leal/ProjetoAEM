@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/index'
 import GeneralInputs from './components/GeneralInputs/index'
 import DropDown from './components/DropDown/index'
 import CheckBox from './components/CheckBox/index'
+import Button from './components/Button/index'
 
 import {
   withComponentMappingContext,
@@ -20,6 +21,8 @@ MapTo('vue/components/general-inputs')(GeneralInputs)
 MapTo('vue/components/dropdown')(DropDown)
 
 MapTo('vue/components/input-checkbox')(CheckBox)
+
+MapTo('vue/components/button')(Button)
 
 // AppPage Mapping
 MapTo('vue/components/page')(withComponentMappingContext(AppPage))
